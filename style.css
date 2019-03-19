@@ -1,0 +1,166 @@
+@font-face {
+    font-family: myFont;
+    src: url(ViceCitySans.otf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(ModernSans-Light.otf);
+}
+
+@font-face {
+    font-family: myFont3;
+    src: url(Rotterdalle.otf);
+}
+
+body {
+    background: #fff;
+    color: #090c0c;
+    font-family: 'myFont';
+  }
+  
+  .navbar {
+    background: transparent;
+  }
+
+  .navbar a {
+      color: #fff;
+      font-size: 20px;
+  }
+
+  .navbar a:hover {
+      color: #ffe200;
+  }
+
+  
+#home-section {
+    background-image: url('img-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 720px;
+  }
+
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 720px;
+    background: rgba(0, 0, 0, 0.3)
+}
+  
+  #home-section .home-inner {
+    padding-top: 250px;
+    color: white;
+  }
+
+  #home-section .btn {
+      border-radius: 10px;
+      font-size: 20px;
+      background: #006600;
+      color: #fff;
+      border: none;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+  }
+
+  #home-section .btn:hover {
+    background: #fff;
+    border: none;
+    color: #006600;
+  }
+
+  #home-section .btn:focus {
+      outline: none !important;
+      box-shadow: none;
+  }
+
+  .navbar a.active {
+      color: #ffe200;
+  }
+
+  #about-head-section {
+    min-height: 720px;
+  
+  }
+
+  #about-head-section .about1 {
+    padding-top: 80px;
+  }
+
+  #about-head-section .about2 {
+    padding-top: 100px;
+    font-family: "myFont2";
+  }
+
+  #about-head-section .about2 a {
+      background: #000b16;
+      color: white;
+      border-radius: 0px;
+      padding: 10px 20px;
+  }
+  
+  #menu-head-section {
+      min-height: 720px;
+      background: #f2f2f2;
+  }
+
+  #menu-head-section .menu1 {
+      padding-top: 80px;
+  }
+
+  #menu-head-section .menu2 {
+      padding-top: 50px;
+      font-size: 20px;
+      font-family: "myFont2";
+  }
+
+  #contact-head-section {
+      min-height: 650px;
+      background: #003300;
+      color: #fff;
+  }
+
+  #contact-head-section .contact1 {
+      padding-top: 120px;
+  }
+
+  #contact-head-section .btn {
+      border-radius: 0px;
+      background: #003300;
+      color: #fff;
+      border: none;
+      padding: 15px;
+  }
+
+  #contact-head-section .btn:hover {
+      background: #ffe200;
+  }
+
+
+  .underL {
+    border: #003300 2px solid;
+    width: 100px;
+  }
+
+  hr {
+    border: #fff 2px solid;
+    width: 100px;
+  }
+
+  .hr2 {
+      border: #fff 1px solid;
+      width: 100%;
+  }
+
+  #contact-head-section .upBtn a{
+    background: #ffe200;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 10px 15px;
+  }
+
+  #main-footer {
+      background: #006600;
+  }
